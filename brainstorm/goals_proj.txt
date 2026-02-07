@@ -1,0 +1,22 @@
+goals for project
+in data/ :
+
+    there's a dataset of continuous factory processes (taken from kaggle)
+
+1. scientifically measure factory data to get operational metrics
+    effective processing times (mean + variance)
+
+    goal: metrics will propagate into viz tool for fac phys equations + EDA for ML 
+2. using these operational metrics
+    create visualization tool with a "variability" slider showing the effects of variability on CT and WIP
+    each station should have a slider changing processing/raw materials/demand variability
+    fine tune an LLM on operational data, metrics, and factory physics intuition to accurately explain each change
+        in state
+
+    goal: show intuition for factory physics. As WIP/utilization explodes, so does cycle time
+3. ML component
+    develop ensemble model/deep learning model
+    show explainability behind ensemble
+    extensive EDA, intuition is we might need to quantize the categorical features for boosted accuracy
+
+    
