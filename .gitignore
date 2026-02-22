@@ -1,6 +1,4 @@
 learni/
-data/continuous_factory_process.csv
-system_walkthrough.md
+*.csv
 .DS_Store
-
 __pycache__/
